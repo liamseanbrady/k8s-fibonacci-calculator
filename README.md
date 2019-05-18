@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/liamseanbrady/multi-docker.svg?branch=master)](https://travis-ci.org/liamseanbrady/multi-docker)
+This project contains an Dockerized Express API backend, a Dockerized React/Redux frontend, a Dockerized Node worker that calculates the Fibonacci numbers, and configuration for a Kubernetes cluster which contains Deployments for the aforementioned services, along with Deployments for Postgres and Redis, as well as an Nginx Ingress Controller using kubernetes/ingress-nginx.
