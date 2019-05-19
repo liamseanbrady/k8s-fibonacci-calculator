@@ -1,6 +1,6 @@
 docker build --tag lbrady/multi-client:latest --tag lbrady/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build --tag lbrady/multi-server:latest --tag lbrady/multi-server:$SHA -f ./server/Dockerfile ./server
-docker build --tag lbrady/multi-worker:latest --tag lbrady/multi-worker:$SHA -f /worker/Dockerfile ./worker
+docker build --tag lbrady/multi-worker:latest --tag lbrady/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 
 docker push lbrady/multi-client:latest
 docker push lbrady/multi-server:latest
